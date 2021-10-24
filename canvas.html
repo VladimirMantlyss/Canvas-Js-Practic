@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Index</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+   <script src="assets/js/canvas.js"></script>
+</head>
+<body>
+<header class="header"><p>Canvas</p></header>
+<div class="container">
+   <main class="center column">
+       <article>
+           <h1>Canvas</h1>
+           <canvas id="draw"></canvas>
+           <div class="toolbar" id="toolbar"></div>
+            <div class="download" id="download"></div>
+            <div class="save" id="save"></div>
+            <div class="restore" id="restore"></div>
+           <div class="timestamp" id="timestamp"></div>
+           <input type="color" id="colorPicker" />
+           <p>Размер рисунка: <input type="range" min="1" max="20" id="size" 
+     oninput="func()" value="3"></p>
+     <div class="background" id="background"></div>
+
+           <p></p>
+       </article>
+   </main>
+   <nav class="left column">
+       <h3>Canvas</h3>
+       <ul>
+           <li><a href="#">Sliding</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+   <div class="push"></div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer"><p>Footer...</p></footer>
+</div>
+</body>
+</html>
